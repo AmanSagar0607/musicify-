@@ -1,0 +1,21 @@
+:root {
+  --progress-width: 0;
+  --buffered-width: 0;
+  --buffered-left: 0;
+}
+
+.progress-bar::-webkit-slider-thumb {
+  z-index: 4;
+  position: relative;
+}
+
+.progress-bar::before {
+  transform: scaleX(var(--progress-width));
+  z-index: 3;
+}
+
+.progress-bar::after {
+  transform: scaleX(var(--buffered-width));
+  transform-origin: left;
+  z-index: 2;
+}
