@@ -25,7 +25,7 @@ export default function App() {
   return (
     <div className="flex flex-col h-screen bg-slate-900 text-white">
       <div className="container mx-auto px-6 py-8 flex-1 overflow-y-auto">
-        <h1 className="text-4xl font-bold mb-8 ">Music Player</h1>
+        <h1 className="text-4xl font-bold mb-8 ">Musicify</h1>
         <label
           htmlFor="upload"
           className="mb-6 pb-3 mt-5cursor-pointer flex items-center w-44 max-h-lvh border-2 rounded-lg border-green-500 ">
